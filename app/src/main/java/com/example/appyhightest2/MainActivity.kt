@@ -103,7 +103,6 @@ class MainActivity : AppCompatActivity() {
 
 
 
-    // Kotlin
     private val mRtcEventHandler = object : IRtcEngineEventHandler() {
 
         // Listen for the onUserJoined callback.
@@ -165,7 +164,7 @@ class MainActivity : AppCompatActivity() {
         val container = findViewById<RelativeLayout>(R.id.remote_video_view_container)
 
 //        if (container.childCount > 1) {
-//            Toast.makeText(this, "agora initailized ${getString(R.string.agora_app_id)}", Toast.LENGTH_SHORT).show()
+//            Toast.makeText(this, "Test toast", Toast.LENGTH_SHORT).show()
 //            return
 //        }
 
